@@ -20,10 +20,15 @@
 	<dependencies>
 		
 		<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+<!--		<dependency>-->
+<!--		    <groupId>com.h2database</groupId>-->
+<!--		    <artifactId>h2</artifactId>-->
+<!--		    <scope>runtime</scope>-->
+<!--		</dependency>-->
 		<dependency>
-		    <groupId>com.h2database</groupId>
-		    <artifactId>h2</artifactId>
-		    <scope>runtime</scope>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.28</version> <!-- 현재 최신 버전을 사용 중인 경우 이 부분을 업데이트하세요 -->
 		</dependency>
 
 
@@ -31,7 +36,7 @@
 		<dependency>
 			<groupId>org.qlrm</groupId>
 			<artifactId>qlrm</artifactId>
-			<version>2.1.1</version>
+			<version>3.0.1</version>
 		</dependency>
 
 		<!-- 시큐리티 태그 라이브러리 -->
@@ -96,6 +101,13 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+			<version>3.1.2</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
