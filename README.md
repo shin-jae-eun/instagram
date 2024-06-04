@@ -37,14 +37,6 @@
 - 소셜 로그인 기능(facebook OAuth)
 - 게시글 좋아요 기능
 - 회원정보 수정 및 프로필 사진 변경 기능
-
-| 사용자 구독 | 소셜 로그인 (OAuth) |
-|------|------|
-|![subscribe](https://user-images.githubusercontent.com/97711663/176613592-96501a76-ae5b-4ac5-adc3-afe9c4a17685.gif)|![oauth](https://user-images.githubusercontent.com/97711663/176613589-95f1686e-f982-46bb-a64b-0194293483c8.gif)|
-| 게시글 좋아요 | 회원정보 수정 및 프로필사진 변경 |
-|![like](https://user-images.githubusercontent.com/97711663/176613584-3e4febf3-a99d-4c46-b1c2-4febf139d9a8.gif)|![userupdate](https://user-images.githubusercontent.com/97711663/176613596-fe6eb9a5-1024-4105-b724-acaae016e048.gif)|
-
-
 <br/>
 
 <br/>
