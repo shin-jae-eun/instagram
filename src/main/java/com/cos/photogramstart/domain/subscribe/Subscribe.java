@@ -28,11 +28,11 @@ public class Subscribe {
     private int id;
 
     @JoinColumn(name = "fromUserId")
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     private User fromUser;
 
     @JoinColumn(name = "toUserId")
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     private User toUser;
 
 

@@ -4,6 +4,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
+import javax.transaction.Transactional;
+
 public interface SubscribeRepository extends JpaRepository<Subscribe, Integer> {
 
     //구독하기 네이티브 쿼리
@@ -21,4 +23,10 @@ public interface SubscribeRepository extends JpaRepository<Subscribe, Integer> {
     int mSubscribeState(int principalId, int pageUserId);
     @Query(value = "SELECT COUNT(*) FROM subscribe WHERE fromUserId = :pageUserId", nativeQuery = true)
     int mSubscribeCount(int pageUserId);
+
+    @Transactional
+    void deleteByFromUserId(int userId);
+
+    @Transactional
+    void deleteByToUserId(int userId);
 }

@@ -22,12 +22,31 @@ import java.util.UUID;
 public class ImageService {
     private final ImageRepository imageRepository;
 
+    @Transactional(readOnly = true)
+    public List<Image> 인기사진(){
+        return imageRepository.mpopular();
+    }
+
     @Value("${file.path}")
     private String uploadFolder;
 
     @Transactional(readOnly = true) //영속성 컨텍스트에서 변경감지를 해서 더치테킹, flush 반영
     public Page<Image> 이미지스토리(int principalId, Pageable pageable){
         Page<Image> images = imageRepository.mStory(principalId, pageable);
+
+        //2(cos)로 로그인하
+        //images에 좋아요 담기
+        images.forEach((image)->{
+            image.setLikeCount(image.getLikes().size());
+
+            image.getLikes().forEach((like)->{
+                if(like.getUser().getId() == principalId){
+                    //해당이미지에 좋아요한 사람들을 찾아서 현재 로긘한 사람이 좋아요한 것인지 비교
+                    image.setLikeState(true);
+                }
+            });
+        });
+
         return images;
     }
 
