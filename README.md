@@ -48,12 +48,6 @@
 
 <br/>
 
-
-## 💡구현 결과(영상 링크)
-
-[<img width="1280" alt="Screenshot_13" src="https://user-images.githubusercontent.com/97711663/176609387-67586ae3-abd8-4827-b640-7cd8402b2e07.png">
-](https://youtu.be/oa4bTg8bRf8)
-
 <br/>
 
 ## 💡ERD
