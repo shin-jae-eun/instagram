@@ -1,4 +1,4 @@
-# 📝Instagram clone coding
+![image](https://github.com/shin-jae-eun/instagram/assets/129717192/e290a089-61a9-4738-8b27-399addfb187a)# 📝Instagram clone coding
 ##  **💡Spring Boot를 활용하여 인스타그램 클론코딩**
 
 - **프로젝트 기간 : 2024.03~2024.08**
@@ -51,6 +51,7 @@
 
 ![image](https://github.com/shin-jae-eun/instagram/assets/129717192/0447b54c-2bb3-470c-9bb1-9e0ac5441e54)
 ![image](https://github.com/shin-jae-eun/instagram/assets/129717192/0020258d-2685-440e-a843-7c103325f2ef)
+
 
 ## 💡 프로젝트 리뷰 및 개선방향
 - 토큰 및 세션 부분을 활용해서 회원가입 로그인 부분을 다시 개선해봐야겠다.
