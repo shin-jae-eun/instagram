@@ -1,4 +1,4 @@
-![image](https://github.com/shin-jae-eun/instagram/assets/129717192/e290a089-61a9-4738-8b27-399addfb187a)# 📝Instagram clone coding
+# 📝Instagram clone coding
 ##  **💡Spring Boot를 활용하여 인스타그램 클론코딩**
 
 - **프로젝트 기간 : 2024.03~2024.08**
