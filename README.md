@@ -47,7 +47,8 @@
 
 <br/>
 ## 💡프로젝트 사진
-![image](https://github.com/shin-jae-eun/instagram/assets/129717192/5174ac6f-2c6a-42c4-ac67-795dcb9f9cec)
+![image](https://github.com/shin-jae-eun/instagram/assets/129717192/0447b54c-2bb3-470c-9bb1-9e0ac5441e54)
+
 ![image](https://github.com/shin-jae-eun/instagram/assets/129717192/0020258d-2685-440e-a843-7c103325f2ef)
 ![image](https://github.com/shin-jae-eun/instagram/assets/129717192/d9d866f3-64c3-47bc-bcf8-c51a7ee8c3ea)
 ![image](https://github.com/shin-jae-eun/instagram/assets/129717192/cfe3a58f-62f6-4192-bbf7-e0b72137050d)
