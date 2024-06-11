@@ -51,8 +51,6 @@
 
 ![image](https://github.com/shin-jae-eun/instagram/assets/129717192/0447b54c-2bb3-470c-9bb1-9e0ac5441e54)
 ![image](https://github.com/shin-jae-eun/instagram/assets/129717192/0020258d-2685-440e-a843-7c103325f2ef)
-![image](https://github.com/shin-jae-eun/instagram/assets/129717192/d9d866f3-64c3-47bc-bcf8-c51a7ee8c3ea)
-
 
 ## 💡 프로젝트 리뷰 및 개선방향
 - 토큰 및 세션 부분을 활용해서 회원가입 로그인 부분을 다시 개선해봐야겠다.
